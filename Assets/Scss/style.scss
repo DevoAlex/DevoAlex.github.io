@@ -12,3 +12,17 @@ body {
     font-family: $font-stack, Helvetica, sans-serif;
     line-height: 1.6;
 }
+.menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+.about {
+    display: flex;
+}
+.projects {
+    display: flex;
+}
+.contacts {
+    display: flex;
+}
