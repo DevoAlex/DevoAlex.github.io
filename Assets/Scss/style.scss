@@ -16,7 +16,6 @@ body {
 
 .menu-container {
     display: flex;
-    
     background-color: $dark-color;
     padding: 20px;
     justify-content: space-between;
@@ -26,31 +25,36 @@ body {
     display: flex;
     
 }
-.about {
-    margin-right: 50px;
-    margin-top: 10px;
+.about a {
+    display: flex;
+    padding: 10px 45px;
     color: $light-color;
-}
-.projects {
-    margin-right: 50px;
-    margin-top: 10px;
-    color: $light-color;
-}
-.contacts {
-    margin-right: 30px;
-    margin-top: 10px;
-    color: $light-color;
-}
-a:link {
+    font-size: 120%;
     text-decoration: none;
-    color: $light-color;
-    font-size: 125%;
 }
+.projects a {
+    display: flex;
+    padding: 10px 45px;
+    color: $light-color;
+    font-size: 120%;
+    text-decoration: none;
+}
+.contacts a {
+    display: flex;
+    padding: 10px 30px;
+    color: $light-color;
+    font-size: 120%;
+    text-decoration: none;
+}
+
 img {
     width: 50px;
     height: 50px;
     border-radius: 4px;
     margin-left: 50px;
+}
+.content-container {
+    display: flex;
 }
 h1{
     margin-top: 200px;
@@ -58,7 +62,16 @@ h1{
     font-weight: 300;
 }
 b {
-    color:orange;
+    color: #FF7733;
     font-weight: 700;
-    
+}
+.player {
+    margin-top: 40px;
+    margin-left: 150px;
+}
+lottie-player {
+    --lottie-player-seeker-thumb-color: transparent;
+    --lottie-player-seeker-track-color: transparent;
+    --lottie-player-toolbar-icon-color: transparent;
+    --lottie-player-toolbar-icon-active-color: transparent;
 }
