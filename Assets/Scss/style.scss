@@ -1,7 +1,8 @@
 /* Variables */
 $light-color: #f4f4f4;
 $dark-color: #404040;
-$font-stack: 'Roboto-light300';
+$highlight-color: #FF7733;
+$font-stack: 'Roboto';
 
 /* Global */
 
@@ -66,11 +67,11 @@ img {
     font-weight: 300;
 }
 b {
-    color: #FF7733;
+    color: $highlight-color;
     font-weight: 700;
 }
 h3 {
-    color: #FF7733
+    color: $highlight-color
 }
 .player {
     margin-top: 40px;
@@ -82,6 +83,64 @@ lottie-player {
     --lottie-player-toolbar-icon-color: transparent;
     --lottie-player-toolbar-icon-active-color: transparent;
     --lottie-player-toolbar-icon-hover-color: transparent;
+}
+
+/* About */
+
+.about-container {
+   margin-top: 200px;
+   margin-left: 150px;
+}
+.about-container p {
+    flex-wrap: nowrap;
+}
+
+/* Footer */
+
+.footer-container {
+    background-color: $dark-color;
+}
+.social-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.social-icon img {
+    width: 40px;
+    height: 40px;
+}
+.contacts {
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    color: $highlight-color;
+}
+.light {
+    width: 490px;
+    justify-self: center;
+    color: $light-color;
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: $light-color;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
 }
 
 
