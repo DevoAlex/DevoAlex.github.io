@@ -36,8 +36,11 @@ h3 {
 }
 .menu {
     display: flex;
-    
 }
+.dropdown {
+    display: none;
+}
+
 .about a {
     display: flex;
     padding: 10px 45px;
@@ -75,11 +78,13 @@ img {
     margin-top: 150px;
     margin-left: 150px;
     font-weight: 300;
-    flex-wrap: nowrap;
+    width: 500px;
 }
 .player {
     margin-top: 40px;
-    margin-left: 150px;
+}
+.player-small {
+    display: none;
 }
 lottie-player {
     --lottie-player-seeker-thumb-color: transparent;
@@ -206,15 +211,73 @@ lottie-player {
 /* Media Queries */
 
 @media (max-width: 992px) {
+    
+    .content-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .player {
+        margin-left: 150px;
+    }
+    .about-container {
+        width: 500px;
+    }
+}  
 
-}
 
 @media (max-width: 768px) {
-
+    
+    .player {
+        margin-left: 50px;
+    }
+    .about-container {
+        margin-left: 75px;
+    }
+    .about-container {
+        width: 400px;
+    }
+    .project-container {
+        margin-left: 75px;
+    }
+    .contact-container {
+        margin-left: 75px;
+    }
+      
 }
 
-@media (max-width: 576px) {
 
+@media (max-width: 576px) {
+   
+    .about a {
+        padding: 10px 20px;
+        font-size: 100%;
+    }
+    .projects a {
+        padding: 10px 20px;
+        font-size: 100%;
+    }
+    .contacts a {
+        padding: 10px 20px;
+        font-size: 100%;
+    }
+    .header {
+        margin-left: 50px;
+        margin-right: 10px;
+    }
+    .player {
+        display: none;
+    }
+    .player-small {
+        display: initial;
+        padding: 20px 0 0 50px;
+    }
+    .light {
+        width: 300px;
+    }
+    .about-container {
+        width: auto;
+        margin-right: 25px;
+    }
 }
 
 
