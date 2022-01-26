@@ -279,5 +279,16 @@ lottie-player {
         margin-right: 25px;
     }
 }
-
-
+.thank-you-container {
+    margin: 100px 0 0 50px;
+}
+.thank-you-container h1 {
+    color: $highlight-color;
+}
+.thank-you-container p {
+    font-size: 25;
+}
+.thank-you-footer {
+    margin-top: 250px;
+    background-color: $dark-color;
+}
