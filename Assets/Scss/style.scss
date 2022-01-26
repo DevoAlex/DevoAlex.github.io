@@ -75,6 +75,7 @@ img {
     margin-top: 150px;
     margin-left: 150px;
     font-weight: 300;
+    flex-wrap: nowrap;
 }
 .player {
     margin-top: 40px;
@@ -93,6 +94,7 @@ lottie-player {
 .about-container {
    margin-top: 100px;
    margin-left: 150px;
+   width: 700px;
 }
 .about-container p {
     flex-wrap: nowrap;
@@ -104,6 +106,71 @@ lottie-player {
     margin-top: 200px;
     margin-left: 150px;
  }
+
+ /* Contact */
+
+.contact-container {
+    margin-top: 200px;
+    margin-left: 150px;
+}
+.contact-form {
+    border: 1px solid #d6d9dc;
+    border-radius: 4px;
+    width: 70%;
+    padding: 50px;
+    margin: 0 0 40px 0;
+}
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#full-name,
+#email {
+    background-color: #ffffff;
+    border: 1px solid #d6d9dc;
+    border-radius: 4px;
+    width: 90%;
+    padding: 10px;
+    font-size: 14px;
+}
+.form-row label {
+    margin-bottom: 15px;
+}
+.form-row textarea {
+    font-family: $font-stack;
+    font-size: 14px;
+    border: 1px solid #d6d9dc;
+    border-radius: 4px;
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+    width: 90%;
+}
+.form-row .instructions {
+    color: #999999;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.form-row button {
+    font-size: 16px;
+    color: $dark-color;
+    background-color: $highlight-color;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 40px;
+    cursor: pointer;
+    width: 200px;
+}
+.form-row button:hover {
+    background-color: #ff9758;
+}
+.form-row button:active {
+    background-color: #c36b36;
+}
 
 /* Footer */
 

@@ -48,13 +48,13 @@
                 <div class="player">
                 <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_osrbi94c.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;"  loop controls autoplay></lottie-player>
                 </div>
-            </main>
+        </main>
             
     <!-- About -->
         <div class="about-container">
             <h2 id="about">About</h2>
-                <p>Hi! My name is Alex and I enjoy creating Websites and apps. <br>
-                 I'm a tech enthusiast since I was a kid and in december 2021 I decided to start my adventure into coding,<br>
+                <p>Hi! My name is Alex and I enjoy creating Websites and apps.
+                 I'm a tech enthusiast since I was a kid and in december 2021 I decided to start my adventure into coding,
                  trying to turn my biggest passion into my job. I started from web developing with HTML &amp CSS.
                  </p>
         </div>
@@ -68,7 +68,30 @@
 
     <!-- Contact -->
 
-    <h2>Contact me</h2>
+    <div class="contact-container">
+        <h2>Contact me</h2>
+        <form action="https://formsubmit.co/9875503f6a1041b7b247f128e69c011e" method="post" class="contact-form">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/Thank-you/">
+            <input type="hidden" name="_subject" value="New email!">
+            <input type="hidden" name="_template" value="table">
+            <div class="form-row">
+                <label for="full-name">Name</label>
+                <input id="full-name" name="full-name" type="text" required>
+            </div>
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="mycompany@example.com" required>
+            </div>
+            <div class="form-row">
+                <label for="details">Details</label>
+                <textarea id="details" name="details"></textarea>
+                <div class="instructions">(details,due date,project type)</div>
+            </div>
+            <div class="form-row">
+                <button>Send message</button>
+            </div>
+        </form>
+    </div>
     
 
     <!-- Footer -->
