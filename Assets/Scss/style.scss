@@ -32,7 +32,6 @@ h3 {
     background-color: $dark-color;
     padding: 20px;
     justify-content: space-between;
-    
 }
 .menu {
     display: flex;
@@ -73,6 +72,7 @@ img {
 
 .content-container {
     display: flex;
+    justify-content: space-between;
 }
 .header{
     margin-top: 150px;
@@ -82,6 +82,7 @@ img {
 }
 .player {
     margin-top: 40px;
+    margin-right: 150px;
 }
 .player-small {
     display: none;
