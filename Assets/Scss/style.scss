@@ -248,6 +248,9 @@ lottie-player {
 
 @media (max-width: 576px) {
    
+    img {
+        margin-left: 25px;
+    }
     .about a {
         padding: 10px 20px;
         font-size: 100%;
@@ -261,8 +264,17 @@ lottie-player {
         font-size: 100%;
     }
     .header {
-        margin-left: 50px;
+        margin-left: 25px;
         margin-right: 10px;
+    }
+    .about-container{
+        margin-left: 25px;
+    }
+    .project-container {
+        margin-left: 25px;
+    }
+    .contact-container {
+        margin-left: 25px;
     }
     .player {
         display: none;
@@ -270,6 +282,13 @@ lottie-player {
     .player-small {
         display: initial;
         padding: 20px 0 0 50px;
+    }
+    lottie-player {
+        --lottie-player-seeker-thumb-color: transparent;
+        --lottie-player-seeker-track-color: transparent;
+        --lottie-player-toolbar-icon-color: transparent;
+        --lottie-player-toolbar-icon-active-color: transparent;
+        --lottie-player-toolbar-icon-hover-color: transparent;
     }
     .light {
         width: 300px;
