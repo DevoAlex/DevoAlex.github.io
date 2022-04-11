@@ -1,4 +1,9 @@
-/* Variables */
+/* Variables 
+light-color: #f4f4f4;
+dark-color: #404040;
+highlight-color: #FF7733;
+font-stack: 'Roboto'*/
+
 /* Global */
 body {
   -webkit-box-sizing: border-box;
